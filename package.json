@@ -1,14 +1,11 @@
 {
-  "name": "video-downloader-site",
+  "name": "video-downloader",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": { "start": "node server.js" },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "express-rate-limit": "^7.4.0",
-    "helmet": "^7.1.0",
-    "mime-types": "^2.1.35"
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
   },
-  "engines": { "node": ">=18" }
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

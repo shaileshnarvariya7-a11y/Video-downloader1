@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clean Video Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Clean Video Downloader</h1>
+    <p class="sub">Download videos you have the rights to. No DRM bypass, no login-restricted sources.</p>
+
+    <form id="form">
+      <input type="url" id="url" placeholder="Paste direct video link (http/https)" required />
+      <button id="probe" type="button">Check</button>
+      <button id="download" type="submit" disabled>Download</button>
+    </form>
+
+    <div id="probeResult" class="card hidden"></div>
+
+    <footer>
+      <small>Use only for content you own or that’s legally free to download.</small>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
